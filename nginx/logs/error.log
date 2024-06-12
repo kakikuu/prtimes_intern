@@ -1,0 +1,723 @@
+2024/06/12 08:06:08 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:06:08 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:06:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:06:08 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:06:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:06:08 [notice] 1#1: start worker processes
+2024/06/12 08:06:08 [notice] 1#1: start worker process 28
+2024/06/12 08:06:08 [notice] 1#1: start worker process 29
+2024/06/12 08:06:08 [notice] 1#1: start worker process 30
+2024/06/12 08:06:08 [notice] 1#1: start worker process 31
+2024/06/12 08:06:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:06:20 [notice] 28#28: gracefully shutting down
+2024/06/12 08:06:20 [notice] 28#28: exiting
+2024/06/12 08:06:20 [notice] 29#29: gracefully shutting down
+2024/06/12 08:06:20 [notice] 29#29: exiting
+2024/06/12 08:06:20 [notice] 30#30: gracefully shutting down
+2024/06/12 08:06:20 [notice] 30#30: exiting
+2024/06/12 08:06:20 [notice] 31#31: gracefully shutting down
+2024/06/12 08:06:20 [notice] 28#28: exit
+2024/06/12 08:06:20 [notice] 29#29: exit
+2024/06/12 08:06:20 [notice] 30#30: exit
+2024/06/12 08:06:20 [notice] 31#31: exiting
+2024/06/12 08:06:20 [notice] 31#31: exit
+2024/06/12 08:06:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 08:06:20 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 08:06:20 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:06:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 08:06:20 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 08:06:20 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:06:20 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:06:20 [notice] 1#1: exit
+2024/06/12 08:06:32 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:06:32 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:06:32 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:06:32 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:06:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:06:32 [notice] 1#1: start worker processes
+2024/06/12 08:06:32 [notice] 1#1: start worker process 28
+2024/06/12 08:06:32 [notice] 1#1: start worker process 29
+2024/06/12 08:06:32 [notice] 1#1: start worker process 30
+2024/06/12 08:06:32 [notice] 1#1: start worker process 31
+2024/06/12 08:07:15 [warn] 29#29: *12 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:17 [warn] 29#29: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:25 [warn] 28#28: *98 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:30 [warn] 28#28: *187 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:34 [warn] 28#28: *202 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:38 [warn] 30#30: *289 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:40 [warn] 30#30: *303 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:45 [warn] 31#31: *395 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:50 [warn] 28#28: *407 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:55 [warn] 31#31: *499 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:07:58 [warn] 29#29: *512 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:02 [warn] 29#29: *598 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:04 [warn] 29#29: *612 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:10 [warn] 28#28: *708 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:14 [warn] 30#30: *723 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:18 [warn] 31#31: *819 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:23 [warn] 31#31: *836 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:08:25 [warn] 31#31: *923 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:14:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:14:08 [notice] 29#29: gracefully shutting down
+2024/06/12 08:14:08 [notice] 29#29: exiting
+2024/06/12 08:14:08 [notice] 30#30: gracefully shutting down
+2024/06/12 08:14:08 [notice] 30#30: exiting
+2024/06/12 08:14:08 [notice] 28#28: gracefully shutting down
+2024/06/12 08:14:08 [notice] 28#28: exiting
+2024/06/12 08:14:08 [notice] 31#31: gracefully shutting down
+2024/06/12 08:14:08 [notice] 29#29: exit
+2024/06/12 08:14:08 [notice] 30#30: exit
+2024/06/12 08:14:08 [notice] 31#31: exiting
+2024/06/12 08:14:08 [notice] 28#28: exit
+2024/06/12 08:14:08 [notice] 31#31: exit
+2024/06/12 08:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 08:14:09 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 08:14:09 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 08:14:09 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:14:09 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 08:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:14:09 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:14:09 [notice] 1#1: exit
+2024/06/12 08:14:21 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:14:21 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:14:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:14:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:14:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:14:21 [notice] 1#1: start worker processes
+2024/06/12 08:14:21 [notice] 1#1: start worker process 28
+2024/06/12 08:14:21 [notice] 1#1: start worker process 29
+2024/06/12 08:14:21 [notice] 1#1: start worker process 30
+2024/06/12 08:14:21 [notice] 1#1: start worker process 31
+2024/06/12 08:15:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:15:14 [notice] 31#31: gracefully shutting down
+2024/06/12 08:15:14 [notice] 30#30: gracefully shutting down
+2024/06/12 08:15:14 [notice] 30#30: exiting
+2024/06/12 08:15:14 [notice] 28#28: gracefully shutting down
+2024/06/12 08:15:14 [notice] 29#29: gracefully shutting down
+2024/06/12 08:15:14 [notice] 31#31: exiting
+2024/06/12 08:15:14 [notice] 30#30: exit
+2024/06/12 08:15:14 [notice] 28#28: exiting
+2024/06/12 08:15:14 [notice] 28#28: exit
+2024/06/12 08:15:14 [notice] 31#31: exit
+2024/06/12 08:15:14 [notice] 29#29: exiting
+2024/06/12 08:15:14 [notice] 29#29: exit
+2024/06/12 08:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:15:14 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:15:14 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 08:15:14 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 08:15:14 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 08:15:14 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 08:15:14 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:15:14 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:15:14 [notice] 1#1: exit
+2024/06/12 08:15:26 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:15:26 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:15:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:15:26 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:15:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:15:26 [notice] 1#1: start worker processes
+2024/06/12 08:15:26 [notice] 1#1: start worker process 28
+2024/06/12 08:15:26 [notice] 1#1: start worker process 29
+2024/06/12 08:15:26 [notice] 1#1: start worker process 30
+2024/06/12 08:15:26 [notice] 1#1: start worker process 31
+2024/06/12 08:15:40 [warn] 28#28: *12 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:15:42 [warn] 28#28: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:15:51 [warn] 28#28: *103 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:15:56 [warn] 29#29: *193 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:15:59 [warn] 29#29: *205 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:03 [warn] 30#30: *291 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:06 [warn] 30#30: *308 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:09 [warn] 31#31: *398 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:15 [warn] 31#31: *412 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:24 [warn] 28#28: *628 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:30 [warn] 28#28: *651 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:35 [warn] 29#29: *747 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:38 [warn] 29#29: *760 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:42 [warn] 30#30: *848 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:45 [warn] 31#31: *862 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:16:50 [warn] 30#30: *945 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:05 [warn] 31#31: *1122 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:07 [warn] 31#31: *1142 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:16 [warn] 28#28: *1214 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:21 [warn] 28#28: *1307 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:23 [warn] 28#28: *1319 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:27 [warn] 29#29: *1410 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:30 [warn] 30#30: *1422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:35 [warn] 30#30: *1518 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:41 [warn] 30#30: *1532 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:45 [warn] 31#31: *1623 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:48 [warn] 31#31: *1635 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:53 [warn] 28#28: *1735 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:17:55 [warn] 28#28: *1751 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:18:00 [warn] 29#29: *1841 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:18:09 [warn] 29#29: *1996 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:18:12 [warn] 30#30: *2082 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:33:00 [notice] 44#44: signal process started
+2024/06/12 08:33:00 [notice] 1#1: signal 1 (SIGHUP) received from 44, reconfiguring
+2024/06/12 08:33:00 [notice] 1#1: reconfiguring
+2024/06/12 08:33:00 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:33:00 [notice] 1#1: start worker processes
+2024/06/12 08:33:00 [notice] 1#1: start worker process 45
+2024/06/12 08:33:00 [notice] 1#1: start worker process 46
+2024/06/12 08:33:00 [notice] 1#1: start worker process 47
+2024/06/12 08:33:00 [notice] 1#1: start worker process 48
+2024/06/12 08:33:00 [notice] 28#28: gracefully shutting down
+2024/06/12 08:33:00 [notice] 29#29: gracefully shutting down
+2024/06/12 08:33:00 [notice] 31#31: gracefully shutting down
+2024/06/12 08:33:00 [notice] 30#30: gracefully shutting down
+2024/06/12 08:33:00 [notice] 28#28: exiting
+2024/06/12 08:33:00 [notice] 29#29: exiting
+2024/06/12 08:33:00 [notice] 31#31: exiting
+2024/06/12 08:33:00 [notice] 30#30: exiting
+2024/06/12 08:33:00 [notice] 28#28: exit
+2024/06/12 08:33:00 [notice] 29#29: exit
+2024/06/12 08:33:00 [notice] 31#31: exit
+2024/06/12 08:33:00 [notice] 30#30: exit
+2024/06/12 08:33:00 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 08:33:00 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 08:33:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:33:00 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:33:00 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:33:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:33:00 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 08:33:00 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 08:33:00 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:33:00 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:33:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:34:40 [warn] 45#45: *2394 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:34:42 [warn] 45#45: *2414 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:34:49 [warn] 46#46: *2474 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:34:56 [warn] 47#47: *2576 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:34:59 [warn] 46#46: *2590 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:03 [warn] 47#47: *2678 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:06 [warn] 47#47: *2691 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:10 [warn] 45#45: *2780 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:15 [warn] 48#48: *2796 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:21 [warn] 45#45: *2888 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:25 [warn] 46#46: *2904 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:28 [warn] 45#45: *2993 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:31 [warn] 46#46: *3011 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:36 [warn] 46#46: *3101 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:40 [warn] 47#47: *3116 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:35:44 [warn] 48#48: *3215 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:37:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:37:41 [notice] 45#45: gracefully shutting down
+2024/06/12 08:37:41 [notice] 46#46: gracefully shutting down
+2024/06/12 08:37:41 [notice] 47#47: gracefully shutting down
+2024/06/12 08:37:41 [notice] 47#47: exiting
+2024/06/12 08:37:41 [notice] 48#48: gracefully shutting down
+2024/06/12 08:37:41 [notice] 45#45: exiting
+2024/06/12 08:37:41 [notice] 45#45: exit
+2024/06/12 08:37:41 [notice] 46#46: exiting
+2024/06/12 08:37:41 [notice] 47#47: exit
+2024/06/12 08:37:41 [notice] 48#48: exiting
+2024/06/12 08:37:41 [notice] 48#48: exit
+2024/06/12 08:37:41 [notice] 46#46: exit
+2024/06/12 08:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2024/06/12 08:37:42 [notice] 1#1: worker process 47 exited with code 0
+2024/06/12 08:37:42 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2024/06/12 08:37:42 [notice] 1#1: worker process 45 exited with code 0
+2024/06/12 08:37:42 [notice] 1#1: worker process 46 exited with code 0
+2024/06/12 08:37:42 [notice] 1#1: worker process 48 exited with code 0
+2024/06/12 08:37:42 [notice] 1#1: exit
+2024/06/12 08:38:03 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:38:03 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:38:03 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:38:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:38:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:38:03 [notice] 1#1: start worker processes
+2024/06/12 08:38:03 [notice] 1#1: start worker process 28
+2024/06/12 08:38:03 [notice] 1#1: start worker process 29
+2024/06/12 08:38:03 [notice] 1#1: start worker process 30
+2024/06/12 08:38:03 [notice] 1#1: start worker process 31
+2024/06/12 08:42:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:42:02 [notice] 30#30: gracefully shutting down
+2024/06/12 08:42:02 [notice] 31#31: gracefully shutting down
+2024/06/12 08:42:02 [notice] 31#31: exiting
+2024/06/12 08:42:02 [notice] 29#29: gracefully shutting down
+2024/06/12 08:42:02 [notice] 31#31: exit
+2024/06/12 08:42:02 [notice] 28#28: gracefully shutting down
+2024/06/12 08:42:02 [notice] 30#30: exiting
+2024/06/12 08:42:02 [notice] 30#30: exit
+2024/06/12 08:42:02 [notice] 29#29: exiting
+2024/06/12 08:42:02 [notice] 29#29: exit
+2024/06/12 08:42:02 [notice] 28#28: exiting
+2024/06/12 08:42:02 [notice] 28#28: exit
+2024/06/12 08:42:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:42:02 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:42:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:42:02 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:42:02 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:42:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:42:02 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 08:42:02 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 08:42:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:42:02 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 08:42:02 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 08:42:02 [notice] 1#1: exit
+2024/06/12 08:42:02 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:42:02 [notice] 1#1: nginx/1.26.0
+2024/06/12 08:42:02 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 08:42:02 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 08:42:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:42:02 [notice] 1#1: start worker processes
+2024/06/12 08:42:02 [notice] 1#1: start worker process 28
+2024/06/12 08:42:02 [notice] 1#1: start worker process 29
+2024/06/12 08:42:02 [notice] 1#1: start worker process 30
+2024/06/12 08:42:02 [notice] 1#1: start worker process 31
+2024/06/12 08:43:01 [warn] 28#28: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:03 [warn] 28#28: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:11 [warn] 28#28: *93 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:16 [warn] 29#29: *193 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:19 [warn] 29#29: *206 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:23 [warn] 30#30: *295 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:26 [warn] 30#30: *309 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:30 [warn] 31#31: *399 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:35 [warn] 31#31: *412 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:41 [warn] 31#31: *508 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:44 [warn] 29#29: *521 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:48 [warn] 28#28: *609 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:51 [warn] 28#28: *628 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:43:56 [warn] 29#29: *717 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:44:00 [warn] 29#29: *732 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 08:44:05 [warn] 30#30: *826 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:13 [warn] 30#30: *1198 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:15 [warn] 31#31: *1218 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:24 [warn] 28#28: *1280 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:29 [warn] 31#31: *1378 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:31 [warn] 29#29: *1391 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:35 [warn] 29#29: *1487 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:38 [warn] 29#29: *1505 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:42 [warn] 30#30: *1594 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:49 [warn] 30#30: *1608 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:54 [warn] 30#30: *1703 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:04:56 [warn] 31#31: *1715 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:05:01 [warn] 31#31: *1812 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:05:04 [warn] 31#31: *1828 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:05:09 [warn] 28#28: *1918 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:05:13 [warn] 28#28: *1933 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:05:19 [warn] 29#29: *2025 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:07:53 [warn] 31#31: *2314 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:07:55 [warn] 31#31: *2334 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:04 [warn] 31#31: *2401 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:09 [warn] 28#28: *2498 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:11 [warn] 28#28: *2514 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:16 [warn] 29#29: *2611 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:21 [warn] 29#29: *2628 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:25 [warn] 30#30: *2720 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:32 [warn] 30#30: *2735 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:37 [warn] 31#31: *2824 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:40 [warn] 31#31: *2838 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:45 [warn] 31#31: *2929 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:49 [warn] 28#28: *2947 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:55 [warn] 29#29: *3042 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:08:59 [warn] 29#29: *3056 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 09:09:01 [warn] 29#29: *3130 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:01:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 12:01:28 [notice] 31#31: gracefully shutting down
+2024/06/12 12:01:28 [notice] 31#31: exiting
+2024/06/12 12:01:28 [notice] 30#30: gracefully shutting down
+2024/06/12 12:01:28 [notice] 30#30: exiting
+2024/06/12 12:01:28 [notice] 29#29: gracefully shutting down
+2024/06/12 12:01:28 [notice] 28#28: gracefully shutting down
+2024/06/12 12:01:28 [notice] 31#31: exit
+2024/06/12 12:01:28 [notice] 29#29: exiting
+2024/06/12 12:01:28 [notice] 29#29: exit
+2024/06/12 12:01:28 [notice] 30#30: exit
+2024/06/12 12:01:28 [notice] 28#28: exiting
+2024/06/12 12:01:28 [notice] 28#28: exit
+2024/06/12 12:01:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 12:01:28 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 12:01:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:01:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 12:01:28 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 12:01:28 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 12:01:28 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 12:01:28 [notice] 1#1: exit
+2024/06/12 12:01:36 [notice] 1#1: using the "epoll" event method
+2024/06/12 12:01:36 [notice] 1#1: nginx/1.26.0
+2024/06/12 12:01:36 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 12:01:36 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 12:01:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 12:01:36 [notice] 1#1: start worker processes
+2024/06/12 12:01:36 [notice] 1#1: start worker process 28
+2024/06/12 12:01:36 [notice] 1#1: start worker process 29
+2024/06/12 12:01:36 [notice] 1#1: start worker process 30
+2024/06/12 12:01:36 [notice] 1#1: start worker process 31
+2024/06/12 12:02:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 12:02:18 [notice] 28#28: gracefully shutting down
+2024/06/12 12:02:18 [notice] 28#28: exiting
+2024/06/12 12:02:18 [notice] 31#31: gracefully shutting down
+2024/06/12 12:02:18 [notice] 29#29: gracefully shutting down
+2024/06/12 12:02:18 [notice] 29#29: exiting
+2024/06/12 12:02:18 [notice] 29#29: exit
+2024/06/12 12:02:18 [notice] 30#30: gracefully shutting down
+2024/06/12 12:02:18 [notice] 28#28: exit
+2024/06/12 12:02:18 [notice] 31#31: exiting
+2024/06/12 12:02:18 [notice] 30#30: exiting
+2024/06/12 12:02:18 [notice] 31#31: exit
+2024/06/12 12:02:18 [notice] 30#30: exit
+2024/06/12 12:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 12:02:18 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 12:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 12:02:18 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 12:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 12:02:18 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 12:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 12:02:18 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 12:02:18 [notice] 1#1: exit
+2024/06/12 12:02:25 [notice] 1#1: using the "epoll" event method
+2024/06/12 12:02:25 [notice] 1#1: nginx/1.26.0
+2024/06/12 12:02:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 12:02:25 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 12:02:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 12:02:25 [notice] 1#1: start worker processes
+2024/06/12 12:02:25 [notice] 1#1: start worker process 29
+2024/06/12 12:02:25 [notice] 1#1: start worker process 30
+2024/06/12 12:02:25 [notice] 1#1: start worker process 31
+2024/06/12 12:02:25 [notice] 1#1: start worker process 32
+2024/06/12 12:02:33 [warn] 32#32: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:34 [warn] 30#30: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:43 [warn] 32#32: *90 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:48 [warn] 30#30: *186 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:51 [warn] 29#29: *201 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:55 [warn] 29#29: *290 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:02:57 [warn] 29#29: *304 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:02 [warn] 31#31: *400 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:07 [warn] 31#31: *416 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:12 [warn] 32#32: *511 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:16 [warn] 30#30: *525 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:19 [warn] 30#30: *613 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:22 [warn] 30#30: *627 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:27 [warn] 29#29: *715 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:31 [warn] 29#29: *732 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:03:36 [warn] 32#32: *834 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:19:40 [warn] 29#29: *1175 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:19:42 [warn] 29#29: *1195 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:19:50 [warn] 29#29: *1255 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:19:56 [warn] 31#31: *1355 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:19:59 [warn] 31#31: *1368 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:03 [warn] 32#32: *1456 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:06 [warn] 32#32: *1469 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:10 [warn] 30#30: *1561 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:15 [warn] 30#30: *1574 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:21 [warn] 29#29: *1665 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:24 [warn] 29#29: *1678 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:29 [warn] 29#29: *1770 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:31 [warn] 29#29: *1786 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:37 [warn] 31#31: *1877 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:40 [warn] 32#32: *1895 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:20:44 [warn] 30#30: *1989 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:24:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 12:24:59 [notice] 30#30: gracefully shutting down
+2024/06/12 12:24:59 [notice] 32#32: gracefully shutting down
+2024/06/12 12:24:59 [notice] 31#31: gracefully shutting down
+2024/06/12 12:24:59 [notice] 31#31: exiting
+2024/06/12 12:24:59 [notice] 29#29: gracefully shutting down
+2024/06/12 12:24:59 [notice] 30#30: exiting
+2024/06/12 12:24:59 [notice] 32#32: exiting
+2024/06/12 12:24:59 [notice] 31#31: exit
+2024/06/12 12:24:59 [notice] 29#29: exiting
+2024/06/12 12:24:59 [notice] 30#30: exit
+2024/06/12 12:24:59 [notice] 32#32: exit
+2024/06/12 12:24:59 [notice] 29#29: exit
+2024/06/12 12:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 12:24:59 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 12:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 12:24:59 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 12:24:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:24:59 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/12 12:24:59 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 12:24:59 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 12:24:59 [notice] 1#1: exit
+2024/06/12 12:25:13 [notice] 1#1: using the "epoll" event method
+2024/06/12 12:25:13 [notice] 1#1: nginx/1.26.0
+2024/06/12 12:25:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 12:25:13 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 12:25:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 12:25:13 [notice] 1#1: start worker processes
+2024/06/12 12:25:13 [notice] 1#1: start worker process 28
+2024/06/12 12:25:13 [notice] 1#1: start worker process 29
+2024/06/12 12:25:13 [notice] 1#1: start worker process 30
+2024/06/12 12:25:13 [notice] 1#1: start worker process 31
+2024/06/12 12:25:31 [warn] 31#31: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:32 [warn] 28#28: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:41 [warn] 28#28: *90 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:45 [warn] 29#29: *188 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:49 [warn] 29#29: *202 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:53 [warn] 30#30: *292 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:25:56 [warn] 30#30: *305 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:00 [warn] 31#31: *395 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:06 [warn] 31#31: *408 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:11 [warn] 31#31: *505 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:15 [warn] 28#28: *521 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:19 [warn] 28#28: *607 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:22 [warn] 28#28: *622 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:28 [warn] 29#29: *712 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:32 [warn] 29#29: *725 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:26:36 [warn] 30#30: *821 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.31.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:28:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 12:28:10 [notice] 28#28: gracefully shutting down
+2024/06/12 12:28:10 [notice] 28#28: exiting
+2024/06/12 12:28:10 [notice] 31#31: gracefully shutting down
+2024/06/12 12:28:10 [notice] 29#29: gracefully shutting down
+2024/06/12 12:28:10 [notice] 29#29: exiting
+2024/06/12 12:28:10 [notice] 30#30: gracefully shutting down
+2024/06/12 12:28:10 [notice] 28#28: exit
+2024/06/12 12:28:10 [notice] 31#31: exiting
+2024/06/12 12:28:10 [notice] 29#29: exit
+2024/06/12 12:28:10 [notice] 30#30: exiting
+2024/06/12 12:28:10 [notice] 31#31: exit
+2024/06/12 12:28:10 [notice] 30#30: exit
+2024/06/12 12:28:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/06/12 12:28:10 [notice] 1#1: worker process 29 exited with code 0
+2024/06/12 12:28:10 [notice] 1#1: worker process 28 exited with code 0
+2024/06/12 12:28:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:28:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/06/12 12:28:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 12:28:10 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 12:28:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 12:28:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 12:28:10 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 12:28:10 [notice] 1#1: exit
+2024/06/12 12:28:21 [notice] 1#1: using the "epoll" event method
+2024/06/12 12:28:21 [notice] 1#1: nginx/1.26.0
+2024/06/12 12:28:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/06/12 12:28:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2024/06/12 12:28:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 12:28:21 [notice] 1#1: start worker processes
+2024/06/12 12:28:21 [notice] 1#1: start worker process 27
+2024/06/12 12:28:21 [notice] 1#1: start worker process 28
+2024/06/12 12:28:21 [notice] 1#1: start worker process 29
+2024/06/12 12:28:21 [notice] 1#1: start worker process 30
+2024/06/12 12:28:38 [warn] 30#30: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:28:40 [warn] 27#27: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:28:51 [warn] 27#27: *106 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:28:54 [warn] 28#28: *202 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:28:56 [warn] 28#28: *215 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:00 [warn] 29#29: *303 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:04 [warn] 29#29: *315 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:08 [warn] 29#29: *405 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:15 [warn] 27#27: *421 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:22 [warn] 30#30: *616 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:24 [warn] 30#30: *633 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:30 [warn] 27#27: *724 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:33 [warn] 28#28: *738 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:36 [warn] 28#28: *831 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:39 [warn] 29#29: *844 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:29:48 [warn] 29#29: *937 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:15 [warn] 30#30: *1146 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:17 [warn] 27#27: *1166 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:28 [warn] 27#27: *1239 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:31 [warn] 28#28: *1331 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:34 [warn] 28#28: *1342 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:38 [warn] 29#29: *1431 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:41 [warn] 29#29: *1444 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:45 [warn] 30#30: *1537 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:50 [warn] 30#30: *1550 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:56 [warn] 30#30: *1640 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:35:59 [warn] 27#27: *1653 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:03 [warn] 28#28: *1739 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:06 [warn] 27#27: *1754 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:11 [warn] 28#28: *1844 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:14 [warn] 28#28: *1859 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:18 [warn] 29#29: *1955 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:23 [warn] 29#29: *1968 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:36:24 [warn] 30#30: *2037 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:23 [warn] 28#28: *2281 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:23 [warn] 28#28: *2301 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:24 [warn] 28#28: *2360 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:25 [warn] 29#29: *2464 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:25 [warn] 30#30: *2478 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:25 [warn] 30#30: *2565 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:26 [warn] 30#30: *2579 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:26 [warn] 27#27: *2669 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:27 [warn] 27#27: *2684 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:27 [warn] 28#28: *2778 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:27 [warn] 28#28: *2793 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:28 [warn] 28#28: *2883 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:28 [warn] 29#29: *2897 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:29 [warn] 29#29: *2984 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:29 [warn] 29#29: *2998 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:30 [warn] 30#30: *3100 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:30 [warn] 27#27: *3114 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:35 [warn] 27#27: *3780 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000052, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:36 [warn] 28#28: *3805 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000053, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:36 [warn] 29#29: *3900 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000054, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:37 [warn] 29#29: *3911 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000055, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:37 [warn] 29#29: *4001 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000056, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:38 [warn] 29#29: *4017 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000057, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:38 [warn] 30#30: *4108 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000058, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:39 [warn] 30#30: *4121 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000059, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:39 [warn] 27#27: *4210 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000060, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:40 [warn] 27#27: *4222 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000061, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:40 [warn] 28#28: *4308 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000062, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:40 [warn] 28#28: *4321 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000063, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:41 [warn] 28#28: *4410 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000064, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:41 [warn] 28#28: *4423 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000065, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:42 [warn] 29#29: *4518 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000066, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:42 [warn] 29#29: *4533 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000067, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:43 [warn] 30#30: *4623 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000068, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:48 [warn] 27#27: *4938 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000069, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:49 [warn] 27#27: *5037 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000070, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:49 [warn] 28#28: *5049 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000071, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:49 [warn] 28#28: *5135 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000072, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:50 [warn] 29#29: *5146 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000073, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:50 [warn] 29#29: *5232 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000074, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:51 [warn] 29#29: *5243 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000075, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:51 [warn] 30#30: *5337 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000076, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:51 [warn] 30#30: *5350 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000077, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:52 [warn] 30#30: *5442 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000078, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:52 [warn] 27#27: *5457 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000079, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:53 [warn] 27#27: *5546 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000080, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:53 [warn] 27#27: *5560 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000081, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:54 [warn] 28#28: *5656 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000082, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:54 [warn] 29#29: *5669 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000083, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:54 [warn] 29#29: *5767 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000084, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:55 [warn] 29#29: *5782 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000085, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:55 [warn] 30#30: *5877 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000086, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:56 [warn] 30#30: *5891 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000087, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:56 [warn] 27#27: *5982 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000088, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:57 [warn] 28#28: *5993 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000089, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:57 [warn] 28#28: *6086 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000090, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:57 [warn] 28#28: *6100 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000091, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:58 [warn] 29#29: *6187 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000092, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:58 [warn] 28#28: *6202 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000093, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:59 [warn] 29#29: *6298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000094, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 12:59:59 [warn] 29#29: *6310 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000095, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:00 [warn] 27#27: *6405 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000096, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:00 [warn] 30#30: *6421 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000097, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:01 [warn] 27#27: *6513 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000098, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:01 [warn] 27#27: *6526 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000099, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:01 [warn] 28#28: *6622 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000100, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:02 [warn] 28#28: *6636 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000101, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:02 [warn] 29#29: *6721 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000102, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:03 [warn] 29#29: *6736 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000103, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:03 [warn] 29#29: *6822 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000104, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:03 [warn] 30#30: *6834 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000105, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:04 [warn] 30#30: *6926 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000106, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:04 [warn] 30#30: *6940 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000107, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:05 [warn] 27#27: *7028 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000108, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:05 [warn] 27#27: *7043 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000109, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:06 [warn] 28#28: *7143 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000110, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:06 [warn] 28#28: *7155 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000111, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:06 [warn] 29#29: *7246 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000112, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:07 [warn] 29#29: *7263 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000113, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:07 [warn] 30#30: *7352 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000114, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:08 [warn] 30#30: *7368 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000115, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:08 [warn] 30#30: *7454 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000116, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:08 [warn] 30#30: *7467 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000117, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:09 [warn] 27#27: *7561 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000118, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:10 [warn] 28#28: *7576 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000119, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:15 [warn] 28#28: *8220 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000120, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:16 [warn] 29#29: *8237 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000121, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:17 [warn] 30#30: *8327 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000122, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:17 [warn] 29#29: *8348 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000123, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:18 [warn] 30#30: *8441 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000124, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:18 [warn] 27#27: *8454 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000125, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:19 [warn] 27#27: *8546 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000126, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:19 [warn] 27#27: *8564 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000127, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:20 [warn] 28#28: *8655 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000128, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:20 [warn] 28#28: *8666 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000129, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:00:26 [warn] 29#29: *9252 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000130, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:23 [warn] 30#30: *9953 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000131, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:23 [warn] 30#30: *9973 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000132, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:24 [warn] 28#28: *10038 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000133, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:25 [warn] 27#27: *10138 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000134, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:25 [warn] 27#27: *10149 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000135, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:25 [warn] 28#28: *10249 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000136, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:26 [warn] 28#28: *10262 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000137, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:26 [warn] 29#29: *10354 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000138, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:27 [warn] 29#29: *10370 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000139, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:27 [warn] 27#27: *10460 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000140, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:27 [warn] 30#30: *10475 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000141, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:28 [warn] 30#30: *10568 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000142, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:28 [warn] 30#30: *10583 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000143, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:29 [warn] 27#27: *10673 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000144, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:29 [warn] 27#27: *10689 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000145, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:30 [warn] 28#28: *10791 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000146, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:30 [warn] 29#29: *10804 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000147, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:31 [warn] 29#29: *10892 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000148, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:31 [warn] 29#29: *10904 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000149, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:32 [warn] 30#30: *11003 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000150, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:32 [warn] 30#30: *11018 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000151, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:32 [warn] 27#27: *11108 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000152, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:33 [warn] 27#27: *11121 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000153, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:33 [warn] 27#27: *11207 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000154, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:33 [warn] 28#28: *11221 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000155, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:39 [warn] 28#28: *11423 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000156, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:39 [warn] 28#28: *11439 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000157, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:40 [warn] 29#29: *11528 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000158, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:40 [warn] 30#30: *11540 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000159, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:40 [warn] 30#30: *11625 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000160, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:41 [warn] 30#30: *11635 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000161, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:41 [warn] 27#27: *11732 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000162, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:42 [warn] 27#27: *11746 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000163, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:42 [warn] 28#28: *11839 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000164, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:42 [warn] 29#29: *11851 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000165, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:43 [warn] 28#28: *11939 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000166, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:43 [warn] 28#28: *11952 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000167, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:44 [warn] 29#29: *12044 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000168, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:44 [warn] 30#30: *12057 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000169, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:44 [warn] 30#30: *12151 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000170, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:45 [warn] 30#30: *12165 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000171, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:45 [warn] 27#27: *12255 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000172, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:45 [warn] 27#27: *12269 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000173, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:46 [warn] 28#28: *12359 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000174, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:46 [warn] 28#28: *12374 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000175, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:47 [warn] 29#29: *12470 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000176, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:47 [warn] 29#29: *12481 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000177, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:53 [warn] 30#30: *13139 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000178, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:53 [warn] 30#30: *13159 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000179, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:54 [warn] 27#27: *13248 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000180, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:54 [warn] 27#27: *13262 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000181, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:54 [warn] 28#28: *13351 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000182, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:55 [warn] 28#28: *13364 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000183, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:55 [warn] 28#28: *13452 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000184, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:56 [warn] 28#28: *13466 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000185, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:56 [warn] 29#29: *13562 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000186, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:56 [warn] 30#30: *13574 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000187, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:57 [warn] 30#30: *13667 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000188, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:57 [warn] 30#30: *13682 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000189, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:58 [warn] 27#27: *13767 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000190, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:58 [warn] 27#27: *13782 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000191, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:59 [warn] 28#28: *13880 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000192, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:59 [warn] 28#28: *13892 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000193, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:02:59 [warn] 28#28: *13982 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000194, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:00 [warn] 29#29: *13995 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000195, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:00 [warn] 29#29: *14087 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000196, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:01 [warn] 29#29: *14100 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000197, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:01 [warn] 30#30: *14189 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000198, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:01 [warn] 30#30: *14204 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000199, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:02 [warn] 27#27: *14291 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000200, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:02 [warn] 27#27: *14306 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000201, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:03 [warn] 27#27: *14397 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000202, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:03 [warn] 28#28: *14408 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000203, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:03 [warn] 28#28: *14498 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000204, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:04 [warn] 28#28: *14513 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000205, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:05 [warn] 29#29: *14606 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000206, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:05 [warn] 29#29: *14620 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000207, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:07 [warn] 30#30: *14716 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000208, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:07 [warn] 30#30: *14731 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000209, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:13 [warn] 27#27: *15347 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000210, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:13 [warn] 28#28: *15370 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000211, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:14 [warn] 28#28: *15471 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000212, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:14 [warn] 29#29: *15485 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000213, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:15 [warn] 29#29: *15575 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000214, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:15 [warn] 29#29: *15588 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000215, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:16 [warn] 30#30: *15675 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000216, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:16 [warn] 30#30: *15689 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000217, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:17 [warn] 27#27: *15775 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000218, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:17 [warn] 27#27: *15791 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000219, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:18 [warn] 27#27: *15881 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000220, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:18 [warn] 27#27: *15898 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000221, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2024/06/12 13:03:24 [warn] 28#28: *16283 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000222, client: 192.168.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
