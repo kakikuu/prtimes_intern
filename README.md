@@ -36,6 +36,17 @@
 
 - app の負荷が SQL を超えた
   ![alt text](image-10.png)
+  - '/'のアクセスが多い
+  - そのエンドポイントの中では get_session と make_posts というメソッドが使用されているが、DB へのアクセスが多かったのが make_posts だったので、こちらのメソッドを修正した
+  - データを全部取得したにも関わらず、使用するのは del_flg が 0 のだけなので、はじめから 0 のデータのみを取得するように変更した
+  - ```
+    post[:user] = db.prepare('SELECT * FROM `users` WHERE `id` = ? AND `del_flg` = 0').execute(
+             post[:user_id]
+           ).first
+    ```
+- この変更後のスコア
+  ![alt text](image-12.png)
+  `{"pass":true,"score":7944,"success":7045,"fail":0,"messages":[]}`
 
 ### 不明点
 
