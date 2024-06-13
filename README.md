@@ -9,47 +9,44 @@
 
 ### 変更後
 
-#### 変更理由
-
-- SQL により CPU が圧迫されている
+#### 1つ目の変更点
+post_id_idx を追加した
+##### 変更理由
+- SQL により CPU が圧迫されており、一つのクエリでレスポンス時間の 70%を占めている
   ![alt text](image-3.png)
-
-  - 一つのクエリでレスポンス時間の 70%を占めている
-    ![alt text](image-4.png)
-  - そのクエリでは、97k 行の確認をして、1.4 行の結果を返している
+  ![alt text](image-4.png)
+  - 該当のクエリでは、97k 行の確認をして、1.4 行の結果を返している
   - → 検査する数を減らせるのではないか
 
-  - 原因の SQL を探る
+- 原因の SQL を探ったところ、検索効率を上げる index が NULL なため、index を追加することで検索効率が上がる可能性がある
     ![alt text](image-5.png)
-  - 検索効率を上げる index が NULL なため、index を追加することで検索効率が上がる可能性がある
     - 変更前の comment table
       ![alt text](image-6.png)
+      このテーブルにpost_id_idx を追加した
     - index 追加後の comment table
       ![alt text](image-7.png)
-    - post_id_idx を追加した
-    - comment テーブル変更後の検索に必要な行数
+    - comment テーブル変更後の検索に必要な行数が1行に減った
       ![alt text](image-8.png)
-    - 1 行に減っている
-  - ここまでの変更でのスコアの変化
+##### ここまでの変更でのスコアの変化
     ![alt text](image-9.png)
     `{"pass":true,"score":7881,"success":7030,"fail":0,"messages":[]}`
 
-- app の負荷が SQL を超えた
-  ![alt text](image-10.png)
-<<<<<<< change
-  - '/'のアクセスが多い
-  - そのエンドポイントの中では get_session と make_posts というメソッドが使用されているが、DB へのアクセスが多かったのが make_posts だったので、こちらのメソッドを修正した
-  - データを全部取得したにも関わらず、使用するのは del_flg が 0 のだけなので、はじめから 0 のデータのみを取得するように変更した
+#### 2つ目の変更点
+****make_postsメソッドのSQLクエリを変更した****
+- データを全部取得したにも関わらず、使用するのは del_flg が 0 のだけなので、はじめから 0 のデータのみを取得するように変更した
   - ```
     post[:user] = db.prepare('SELECT * FROM `users` WHERE `id` = ? AND `del_flg` = 0').execute(
              post[:user_id]
            ).first
     ```
-- この変更後のスコア
+##### 変更理由
+- app の負荷が SQL を超えたため、appの処理を修正することにした
+  ![alt text](image-10.png)
+  - '/'のアクセスが多い(app.rb)、かつ、'/'の処理の中では get_session と make_posts というメソッドが使用されているが、DB へのアクセスが多かったのが make_posts だったので、こちらのメソッドを修正した
+  
+##### この変更後のスコア
   ![alt text](image-12.png)
   `{"pass":true,"score":7944,"success":7045,"fail":0,"messages":[]}`
-=======
->>>>>>> main
 
 ### 不明点
 
