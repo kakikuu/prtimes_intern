@@ -120,11 +120,11 @@ module Isuconp
           end
           post[:comments] = comments.reverse
 
-          post[:user] = db.prepare('SELECT * FROM `users` WHERE `id` = ?').execute(
+          post[:user] = db.prepare('SELECT * FROM `users` WHERE `id` = ? AND `del_flg` = 0').execute(
             post[:user_id]
           ).first
-
-          posts.push(post) if post[:user][:del_flg] == 0
+          # データを全部取得したにも関わらず、使用するのはdel_flgが0のだけなので、はじめから0のデータのみを取得する
+          posts.push(post) if post[:user]
           break if posts.length >= POSTS_PER_PAGE
         end
 
